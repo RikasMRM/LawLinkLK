@@ -1,7 +1,7 @@
 const User = require("../models/userModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const Doctor = require("../models/lawyerModel");
+const Lawyer = require("../models/lawyerModel");
 const Appointment = require("../models/appointmentModel");
 
 const getuser = async (req, res) => {
