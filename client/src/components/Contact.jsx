@@ -25,7 +25,7 @@ const Contact = () => {
         <h2 className="form-heading">Contact Us</h2>
         <form
           method="POST"
-          action="https://formspree.io/f/xkneldwn"
+          action={process.env.REACT_APP_FORM_ACTION}
           className="register-form "
         >
           <input

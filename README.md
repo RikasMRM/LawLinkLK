@@ -46,5 +46,6 @@ REACT_APP_SERVER_DOMAIN=http://localhost:5000/api
 REACT_APP_CLOUDINARY_BASE_URL=https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload
 REACT_APP_CLOUDINARY_CLOUD_NAME=YOUR_OWN_CLOUDINARY_CLOUD_NAME
 REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
+REACT_APP_FORM_ACTION=formspree.io link
 ```
 **Note:** Replace the **{CLOUD_NAME}** with your own cloudinary cloud name
