@@ -82,7 +82,7 @@ const ApplyLawyer = () => {
               type="number"
               name="fees"
               className="form-input"
-              placeholder="Enter your fees  (in dollars)"
+              placeholder="Enter your fees  (in LKR)"
               value={formDetails.fees}
               onChange={inputChange}
             />
