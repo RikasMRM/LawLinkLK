@@ -87,7 +87,7 @@ const updateprofile = async (req, res) => {
 const deleteuser = async (req, res) => {
   try {
     const result = await User.findByIdAndDelete(req.body.userId);
-    const removeDoc = await Doctor.findOneAndDelete({
+    const removeDoc = await Lawyer.findOneAndDelete({
       userId: req.body.userId,
     });
     const removeAppoint = await Appointment.findOneAndDelete({

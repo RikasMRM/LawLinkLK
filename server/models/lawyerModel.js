@@ -29,6 +29,6 @@ const schema = mongoose.Schema(
   }
 );
 
-const Lawyer = mongoose.model("Doctor", schema);
+const Lawyer = mongoose.model("Lawyer", schema);
 
 module.exports = Lawyer;
